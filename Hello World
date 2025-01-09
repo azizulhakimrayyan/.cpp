@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main(){
+    cout << "hello world!!\n";
+    int ID = 2202110;
+    cout << "ID:"<<ID<<endl;
+    char a = 'I';
+    int x = a;
+    cout << x;
+
+    return 0;
+}
