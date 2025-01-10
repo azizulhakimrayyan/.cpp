@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main (){
+cout << "Enter your age:";
+int a;
+cin >> a;
+if (a>=18)
+{
+  cout << "You are ADULT";
+}
+else 
+ cout << "You are TEENAGER";
+return 0;
+}
