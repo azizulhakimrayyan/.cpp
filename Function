@@ -1,0 +1,15 @@
+
+#include <iostream>
+using namespace std;
+int printsum(int x,int y);
+int main (){
+  int a,b;
+  cout<<"Enter two number(FOR a+b):";
+  cin >> a >> b;
+  cout<< printsum(a, b);
+  return 0;
+}
+int printsum(int x, int y){
+  
+  return (x + y);
+}
